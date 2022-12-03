@@ -26,8 +26,8 @@ def lembas(data_input):
     answer_1 = challenge_1(calorie_list)
     answer_2 = challenge_2(calorie_list)
 
-    print(answer_1)
-    print(answer_2)
+    print(f"Calories 1: {answer_1}")
+    print(f"Calories 2: {answer_2}")
 
 
 lembas('problem_input')
