@@ -43,8 +43,8 @@ def rucksack_prioritisation(data_input):
     common_items = get_common_items(rucksacks)
     group_badges = get_group_badges(rucksacks)
 
-    print(priority_cal(common_items))
-    print(priority_cal(group_badges))
+    print(f"Number of Common Items: {priority_cal(common_items)}")
+    print(f"Number of Group Badges: {priority_cal(group_badges)}")
 
 
 rucksack_prioritisation("puzzle_input")
