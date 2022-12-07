@@ -1,13 +1,13 @@
 def containment_counter(data_input):
-    pair_list = data_input.split("\n")
+    pairs_list = data_input.split("\n")
     totally_contained = 0
     any_contained = 0
 
-    for pair in pair_list:
-        elf_list = pair.split(",")
+    for pair in pairs_list:
+        both_coordinates = pair.split(",")
 
-        coordinate_1 = elf_list[0].split("-")
-        coordinate_2 = elf_list[1].split("-")
+        coordinate_1 = both_coordinates[0].split("-")
+        coordinate_2 = both_coordinates[1].split("-")
 
         long_range = range(int(coordinate_1[0]), int(coordinate_1[1]) + 1)
         short_range = range(int(coordinate_2[0]), int(coordinate_2[1]) + 1)
