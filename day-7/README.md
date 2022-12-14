@@ -99,10 +99,11 @@ directories?
 Now, you're ready to choose a directory to delete.
 
 The total disk space available to the filesystem is 70000000. To run the update, you need unused space of at least 
-30000000. You need to find a directory you can delete that will free up enough space to run the update.
+30000000 . You need to find a directory you can delete that will free up enough space to run the update.
 
 In the example above, the total size of the outermost directory (and thus the total amount of used space) is 48381165; 
-this means that the size of the unused space must currently be 21618835, which isn't quite the 30000000 required by the update. Therefore, the update still requires a directory with total size of at least 8381165 to be deleted before it can run.
+this means that the size of the unused space must currently be 21618835, which isn't quite the 30000000 required by the 
+update. Therefore, the update still requires a directory with total size of at least 8381165 to be deleted before it can run.
 
 To achieve this, you have the following options:
 
